@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A5A0CA31CCCBA2C0044DB2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A0CA21CCCBA2C0044DB2B /* AppDelegate.swift */; };
+		7A5A0CA51CCCBA2C0044DB2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A0CA41CCCBA2C0044DB2B /* ViewController.swift */; };
+		7A5A0CA81CCCBA2C0044DB2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0CA61CCCBA2C0044DB2B /* Main.storyboard */; };
+		7A5A0CAA1CCCBA2C0044DB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0CA91CCCBA2C0044DB2B /* Assets.xcassets */; };
+		7A5A0CAD1CCCBA2C0044DB2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0CAB1CCCBA2C0044DB2B /* LaunchScreen.storyboard */; };
+		7A5A0CB81CCCBA2D0044DB2B /* Input_micTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A0CB71CCCBA2D0044DB2B /* Input_micTests.swift */; };
+		7A5A0CC31CCCBA2D0044DB2B /* Input_micUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A0CC21CCCBA2D0044DB2B /* Input_micUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A5A0CB41CCCBA2D0044DB2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5A0C971CCCBA2C0044DB2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A5A0C9E1CCCBA2C0044DB2B;
+			remoteInfo = "Input mic";
+		};
+		7A5A0CBF1CCCBA2D0044DB2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5A0C971CCCBA2C0044DB2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A5A0C9E1CCCBA2C0044DB2B;
+			remoteInfo = "Input mic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A5A0C9F1CCCBA2C0044DB2B /* Input mic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Input mic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5A0CA21CCCBA2C0044DB2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A5A0CA41CCCBA2C0044DB2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A5A0CA71CCCBA2C0044DB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A5A0CA91CCCBA2C0044DB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A5A0CAC1CCCBA2C0044DB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A5A0CAE1CCCBA2C0044DB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5A0CB31CCCBA2D0044DB2B /* Input micTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input micTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5A0CB71CCCBA2D0044DB2B /* Input_micTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_micTests.swift; sourceTree = "<group>"; };
+		7A5A0CB91CCCBA2D0044DB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5A0CBE1CCCBA2D0044DB2B /* Input micUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input micUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5A0CC21CCCBA2D0044DB2B /* Input_micUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_micUITests.swift; sourceTree = "<group>"; };
+		7A5A0CC41CCCBA2D0044DB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A5A0C9C1CCCBA2C0044DB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5A0CB01CCCBA2D0044DB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5A0CBB1CCCBA2D0044DB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A5A0C961CCCBA2C0044DB2B = {
+			isa = PBXGroup;
+			children = (
+				7A5A0CA11CCCBA2C0044DB2B /* Input mic */,
+				7A5A0CB61CCCBA2D0044DB2B /* Input micTests */,
+				7A5A0CC11CCCBA2D0044DB2B /* Input micUITests */,
+				7A5A0CA01CCCBA2C0044DB2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A5A0CA01CCCBA2C0044DB2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A0C9F1CCCBA2C0044DB2B /* Input mic.app */,
+				7A5A0CB31CCCBA2D0044DB2B /* Input micTests.xctest */,
+				7A5A0CBE1CCCBA2D0044DB2B /* Input micUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A5A0CA11CCCBA2C0044DB2B /* Input mic */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A0CA21CCCBA2C0044DB2B /* AppDelegate.swift */,
+				7A5A0CA41CCCBA2C0044DB2B /* ViewController.swift */,
+				7A5A0CA61CCCBA2C0044DB2B /* Main.storyboard */,
+				7A5A0CA91CCCBA2C0044DB2B /* Assets.xcassets */,
+				7A5A0CAB1CCCBA2C0044DB2B /* LaunchScreen.storyboard */,
+				7A5A0CAE1CCCBA2C0044DB2B /* Info.plist */,
+			);
+			path = "Input mic";
+			sourceTree = "<group>";
+		};
+		7A5A0CB61CCCBA2D0044DB2B /* Input micTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A0CB71CCCBA2D0044DB2B /* Input_micTests.swift */,
+				7A5A0CB91CCCBA2D0044DB2B /* Info.plist */,
+			);
+			path = "Input micTests";
+			sourceTree = "<group>";
+		};
+		7A5A0CC11CCCBA2D0044DB2B /* Input micUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A0CC21CCCBA2D0044DB2B /* Input_micUITests.swift */,
+				7A5A0CC41CCCBA2D0044DB2B /* Info.plist */,
+			);
+			path = "Input micUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A5A0C9E1CCCBA2C0044DB2B /* Input mic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5A0CC71CCCBA2D0044DB2B /* Build configuration list for PBXNativeTarget "Input mic" */;
+			buildPhases = (
+				7A5A0C9B1CCCBA2C0044DB2B /* Sources */,
+				7A5A0C9C1CCCBA2C0044DB2B /* Frameworks */,
+				7A5A0C9D1CCCBA2C0044DB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Input mic";
+			productName = "Input mic";
+			productReference = 7A5A0C9F1CCCBA2C0044DB2B /* Input mic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A5A0CB21CCCBA2D0044DB2B /* Input micTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5A0CCA1CCCBA2D0044DB2B /* Build configuration list for PBXNativeTarget "Input micTests" */;
+			buildPhases = (
+				7A5A0CAF1CCCBA2D0044DB2B /* Sources */,
+				7A5A0CB01CCCBA2D0044DB2B /* Frameworks */,
+				7A5A0CB11CCCBA2D0044DB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5A0CB51CCCBA2D0044DB2B /* PBXTargetDependency */,
+			);
+			name = "Input micTests";
+			productName = "Input micTests";
+			productReference = 7A5A0CB31CCCBA2D0044DB2B /* Input micTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A5A0CBD1CCCBA2D0044DB2B /* Input micUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5A0CCD1CCCBA2D0044DB2B /* Build configuration list for PBXNativeTarget "Input micUITests" */;
+			buildPhases = (
+				7A5A0CBA1CCCBA2D0044DB2B /* Sources */,
+				7A5A0CBB1CCCBA2D0044DB2B /* Frameworks */,
+				7A5A0CBC1CCCBA2D0044DB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5A0CC01CCCBA2D0044DB2B /* PBXTargetDependency */,
+			);
+			name = "Input micUITests";
+			productName = "Input micUITests";
+			productReference = 7A5A0CBE1CCCBA2D0044DB2B /* Input micUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A5A0C971CCCBA2C0044DB2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rplay;
+				TargetAttributes = {
+					7A5A0C9E1CCCBA2C0044DB2B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7A5A0CB21CCCBA2D0044DB2B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7A5A0C9E1CCCBA2C0044DB2B;
+					};
+					7A5A0CBD1CCCBA2D0044DB2B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7A5A0C9E1CCCBA2C0044DB2B;
+					};
+				};
+			};
+			buildConfigurationList = 7A5A0C9A1CCCBA2C0044DB2B /* Build configuration list for PBXProject "Input mic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A5A0C961CCCBA2C0044DB2B;
+			productRefGroup = 7A5A0CA01CCCBA2C0044DB2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A5A0C9E1CCCBA2C0044DB2B /* Input mic */,
+				7A5A0CB21CCCBA2D0044DB2B /* Input micTests */,
+				7A5A0CBD1CCCBA2D0044DB2B /* Input micUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A5A0C9D1CCCBA2C0044DB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5A0CAD1CCCBA2C0044DB2B /* LaunchScreen.storyboard in Resources */,
+				7A5A0CAA1CCCBA2C0044DB2B /* Assets.xcassets in Resources */,
+				7A5A0CA81CCCBA2C0044DB2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5A0CB11CCCBA2D0044DB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5A0CBC1CCCBA2D0044DB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A5A0C9B1CCCBA2C0044DB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5A0CA51CCCBA2C0044DB2B /* ViewController.swift in Sources */,
+				7A5A0CA31CCCBA2C0044DB2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5A0CAF1CCCBA2D0044DB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5A0CB81CCCBA2D0044DB2B /* Input_micTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5A0CBA1CCCBA2D0044DB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5A0CC31CCCBA2D0044DB2B /* Input_micUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A5A0CB51CCCBA2D0044DB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A5A0C9E1CCCBA2C0044DB2B /* Input mic */;
+			targetProxy = 7A5A0CB41CCCBA2D0044DB2B /* PBXContainerItemProxy */;
+		};
+		7A5A0CC01CCCBA2D0044DB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A5A0C9E1CCCBA2C0044DB2B /* Input mic */;
+			targetProxy = 7A5A0CBF1CCCBA2D0044DB2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A5A0CA61CCCBA2C0044DB2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A5A0CA71CCCBA2C0044DB2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A5A0CAB1CCCBA2C0044DB2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A5A0CAC1CCCBA2C0044DB2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A5A0CC51CCCBA2D0044DB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A5A0CC61CCCBA2D0044DB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A5A0CC81CCCBA2D0044DB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Input mic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rplay.Input-mic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A5A0CC91CCCBA2D0044DB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Input mic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rplay.Input-mic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A5A0CCB1CCCBA2D0044DB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Input micTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rplay.Input-micTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Input mic.app/Input mic";
+			};
+			name = Debug;
+		};
+		7A5A0CCC1CCCBA2D0044DB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Input micTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rplay.Input-micTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Input mic.app/Input mic";
+			};
+			name = Release;
+		};
+		7A5A0CCE1CCCBA2D0044DB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Input micUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rplay.Input-micUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Input mic";
+			};
+			name = Debug;
+		};
+		7A5A0CCF1CCCBA2D0044DB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Input micUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rplay.Input-micUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Input mic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A5A0C9A1CCCBA2C0044DB2B /* Build configuration list for PBXProject "Input mic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5A0CC51CCCBA2D0044DB2B /* Debug */,
+				7A5A0CC61CCCBA2D0044DB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5A0CC71CCCBA2D0044DB2B /* Build configuration list for PBXNativeTarget "Input mic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5A0CC81CCCBA2D0044DB2B /* Debug */,
+				7A5A0CC91CCCBA2D0044DB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A5A0CCA1CCCBA2D0044DB2B /* Build configuration list for PBXNativeTarget "Input micTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5A0CCB1CCCBA2D0044DB2B /* Debug */,
+				7A5A0CCC1CCCBA2D0044DB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A5A0CCD1CCCBA2D0044DB2B /* Build configuration list for PBXNativeTarget "Input micUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5A0CCE1CCCBA2D0044DB2B /* Debug */,
+				7A5A0CCF1CCCBA2D0044DB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A5A0C971CCCBA2C0044DB2B /* Project object */;
+}
